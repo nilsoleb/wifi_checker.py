@@ -42,4 +42,7 @@ Temporary Items
 # Ignore all local history of files
 .history
 
+### Other Stuff ###
+wifi_checker.app/Contents
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
