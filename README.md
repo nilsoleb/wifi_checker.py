@@ -26,5 +26,7 @@ or
 ![No Connection](images/no_connection.png?raw=true "No Connection")
 
 
-##Roadmap
+It automatically pings every 10 secs for a response of "google.com".
+
+##Roadmap##
 Windows (and potentially Unix) will be added later.
