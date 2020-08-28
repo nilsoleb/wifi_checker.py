@@ -1,3 +1,0 @@
-([('wifi_checker',
-   '/Users/nilsbungener/Documents/Projekte/WiFi Checker/dist/wifi_checker',
-   'EXECUTABLE')],)
