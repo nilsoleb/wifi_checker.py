@@ -1,7 +1,5 @@
 # wifi_checker.py
-This is a python script to checks continously if the computer has a connection to the internet and if there is no connection, it restarts the WiFi adapter.
-
-The idea arrose when my Macbook Pro (Late 2011) constantly lost it's WiFi connection with no reason and restarting the WiFi adapter would fix it.
+This is a python script to check continously if the computer has a connection to the internet and if there is none, it restarts the WiFi adapter.
 
 It consists of a very rudimentary GUI writen in Tkinter with a status text, a start and a stop button.
 
@@ -11,7 +9,7 @@ It consists of a very rudimentary GUI writen in Tkinter with a status text, a st
 
 ## Installation
 You can either run the wifi_checker.py-file in the terminal or use pyinstaller to generate an executable app.
-For instructions how to install and use pyinstaller please refere to [the official pyinstaller GitHub](https://github.com/pyinstaller/pyinstaller)
+For instructions on how to install and use pyinstaller please refere to [the official pyinstaller GitHub](https://github.com/pyinstaller/pyinstaller)
 
 **How to use pyinstaller**
 ```
