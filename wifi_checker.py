@@ -29,10 +29,17 @@ def main():
         return('WiFi is up.')
     # If there is no connection to google.com, restart the WiFi-module
     else:
-        os.system("networksetup -setairportpower airport off")
-        time.sleep(5)
-        os.system("networksetup -setairportpower airport on")
-        return('No response. WiFi restarted.')
+        time.sleep(2)
+        scnd = ping(hostname)
+        if scnd == False:
+            os.system("networksetup -setairportpower airport off")
+            v.set('No response. Deactivating now...')
+            time.sleep(5)
+            os.system("networksetup -setairportpower airport on")
+            time.sleep(5)
+            return('WiFi restarted.')
+        else:
+            return('Slow response. Might break.')
 
 
 running = True  # Global flag
@@ -54,6 +61,7 @@ def stop():
     """Stop scanning by setting the global flag to False."""
     global running
     running = False
+    v.set('Stopped.')
 
 # Define TKinter GUI
 hostname = "google.com" #example
