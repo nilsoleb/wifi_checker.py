@@ -79,6 +79,5 @@ button2.pack(fill = X, padx=5, pady=2)
 
 root.mainloop()
 
-
 # To compile new file run pyinstaller wifi_checker.py -F -w in the .py-file's directory
 # -F will make it one file and -w creates a windowed, no-console version (on MAC OSX it creates a standalone app)
